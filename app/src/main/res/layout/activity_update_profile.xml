@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".activity.UpdateProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="?actionBarSize"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:background="?selectableItemBackground"
+            android:onClick="clickBack"
+            android:padding="@dimen/_14sdp"
+            android:src="@drawable/ic_back" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:gravity="center_vertical"
+            android:text="@string/update_profile"
+            android:textAppearance="@style/PoppinsBoldTextAppearance"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="@dimen/_1sdp"
+        android:scrollbarThumbVertical="@color/colorBlack"
+        android:scrollbarTrackVertical="@color/colorDark"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/agent_name"
+                android:textColor="@color/colorDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edAgentName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_edit_text"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="@string/agent_name"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:maxLength="10"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/party_name"
+                android:textColor="@color/colorDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edPartyName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_edit_text"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="@string/party_name"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/gst_number"
+                android:textColor="@color/colorDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edGSTNo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_edit_text"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="@string/gst_number"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/mobile_number"
+                android:textColor="@color/colorDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_edit_text"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="@string/mobile_number"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="10"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/email"
+                    android:textColor="@color/colorDark"
+                    android:textSize="@dimen/_12ssp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:alpha="0.6"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="(Optional)"
+                    android:textColor="@color/colorDark"
+                    android:textSize="@dimen/_8ssp" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edEmail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_edit_text"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="@string/email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorDark"
+                android:textSize="@dimen/_12ssp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/state"
+                    android:textColor="@color/colorDark"
+                    android:textSize="@dimen/_12ssp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:alpha="0.6"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="(Optional)"
+                    android:textColor="@color/colorDark"
+                    android:textSize="@dimen/_8ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edit_text"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/spinnerState"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/city"
+                    android:textColor="@color/colorDark"
+                    android:textSize="@dimen/_12ssp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:alpha="0.6"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="(Optional)"
+                    android:textColor="@color/colorDark"
+                    android:textSize="@dimen/_8ssp" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edCity"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_edit_text"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="@string/city"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/bg_button"
+                android:fontFamily="@font/poppins_regular"
+                android:foreground="?selectableItemBackground"
+                android:onClick="clickUpdate"
+                android:paddingTop="@dimen/_4sdp"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_14ssp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

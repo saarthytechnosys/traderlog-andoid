@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash_screen.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_confirm_order.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\activity_confirm_order.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_alert.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\dialog_alert.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_catalogue_filter.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\dialog_catalogue_filter.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_reset.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\activity_reset.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_confirm_shades.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\item_confirm_shades.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_catalogue.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\item_catalogue.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_catalogue_details.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\activity_catalogue_details.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_shades.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\item_shades.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_drawable.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\item_drawable.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_forgot.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\activity_forgot.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_catalogue.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\fragment_catalogue.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_shades_selection.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\item_shades_selection.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_loading.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\item_loading.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_drawable_sub.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\item_drawable_sub.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_order_filter.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\dialog_order_filter.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_update_profile.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\activity_update_profile.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home_screen.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\activity_home_screen.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_list.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\item_list.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_order_history.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\fragment_order_history.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\navigation_header.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\navigation_header.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_order_success.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\dialog_order_success.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_history.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\item_history.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order_details.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\activity_order_details.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_shade_img.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\dialog_shade_img.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_whatsapp.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\dialog_whatsapp.xml"
+    },
+    {
+        "merged": "D:\\Office Work\\TradeLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_shades_selection_share.xml",
+        "source": "D:\\Office Work\\TradeLog\\app\\src\\main\\res\\layout\\item_shades_selection_share.xml"
+    }
+]

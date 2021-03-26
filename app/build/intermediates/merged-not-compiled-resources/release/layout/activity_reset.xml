@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".activity.ResetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="?actionBarSize"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackground"
+            android:onClick="clickBack"
+            android:padding="@dimen/_14sdp"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:src="@drawable/ic_back" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/reset_password"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textAppearance="@style/PoppinsBoldTextAppearance"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_35sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/new_password"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edNewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@drawable/bg_edit_text"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/new_password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorDark"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/confirm_password"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@drawable/bg_edit_text"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/confirm_password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorDark"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSet"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_32sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@drawable/bg_button"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:fontFamily="@font/poppins_regular"
+            android:foreground="?selectableItemBackground"
+            android:onClick="resetPassword"
+            android:paddingTop="@dimen/_4sdp"
+            android:text="Set"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_14ssp" />
+    </LinearLayout>
+
+</LinearLayout>

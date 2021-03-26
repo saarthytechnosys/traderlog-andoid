@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo1" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="@string/catalogue_name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_16ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:layout_marginEnd="@dimen/_35sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/mobile_number"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@drawable/bg_edit_text"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/mobile_number"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorDark"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/password"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edPassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@drawable/bg_edit_text"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorDark"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkPrivacyPolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_minus3sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:buttonTint="@color/colorPrimary"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/colorBlack"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="@dimen/_10ssp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_32sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@drawable/bg_button"
+            android:fontFamily="@font/poppins_regular"
+            android:foreground="?selectableItemBackground"
+            android:onClick="login"
+            android:paddingTop="@dimen/_4sdp"
+            android:text="Log In"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_14ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="?selectableItemBackground"
+            android:fontFamily="@font/poppins_medium"
+            android:onClick="forgotPassword"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_6sdp"
+            android:text="@string/forgot_password"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_10ssp" />
+
+    </LinearLayout>
+
+</LinearLayout>

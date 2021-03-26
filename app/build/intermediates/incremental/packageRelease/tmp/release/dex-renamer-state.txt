@@ -1,0 +1,4 @@
+#Thu Feb 25 22:17:02 IST 2021
+base.0=D\:\\Office Work\\TradeLog\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

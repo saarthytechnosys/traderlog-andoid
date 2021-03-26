@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Trade Log</string>
+
+    <string name="open">Drawer Open</string>
+    <string name="close">Drawer Close</string>
+
+    <string name="catalogue_name">Catalogue Trade Log</string>
+
+    <string name="password">Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="valid_mobile">Enter Valid 10 digit Mobile Number</string>
+    <string name="valid_password">Enter Password</string>
+    <string name="valid_check">Please agree with privacy and policy</string>
+    <string name="valid_new_password">Enter New Password</string>
+    <string name="valid_confirm_password">Enter Confirm Password</string>
+    <string name="valid_mismatch_password">New password or confirm password is not same confirm password is not same not same</string>
+    <string name="valid_otp">Enter valid otp</string>
+    <string name="valid_agent">Enter Agent Name</string>
+    <string name="valid_party">Enter Party Name</string>
+    <string name="valid_gst">Enter GST Number</string>
+    <string name="valid_gst_15">GST No should be of 15 characters</string>
+
+    <string name="alert_title">Message</string>
+    <string name="forgot_password1">Forgot Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="catalogue">Order Catalogue</string>
+    <string name="catalogue_share">Catalogue Share</string>
+    <string name="order_history">Order History</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dot">•</string>
+    <string name="order_number">Order Number</string>
+    <string name="order_details">Order View</string>
+    <string name="rupees">\u20B9%s</string>
+    <string name="no_catalogues_found">No Catalogues Found!</string>
+    <string name="no_order_found">No Order Found!</string>
+    <string name="catalogue_name1">Catalogue Name</string>
+    <string name="catalogue_number">Catalogue Number</string>
+    <string name="product_id">Product</string>
+    <string name="manufacturer_id">Manufacturer</string>
+    <string name="fabric_id">Fabric</string>
+    <string name="sub_fabric_id">Variant</string>
+    <string name="plus">\u002B</string>
+    <string name="minus">\u2212</string>
+    <string name="thank_you_for_your_order">Thank You For Your Order</string>
+    <string name="thank_you_desc">Thank you for Ordering with Bibs, We will get back to you shortly.\nYour Order No is %s.</string>
+    <string name="order_view">Order View</string>
+    <string name="share_order">Share Order</string>
+    <string name="catalogue_details">Catalogue Details</string>
+    <string name="catalogue_details_share">Share Catalogue Details</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="fcm_message">FCM Message Title</string>
+    <string name="agree_terms_privacy">By continuing, you agree to our &lt;a href=https://bibsindia.com/privacy>Privacy Policy&lt;/a></string>
+
+    <string name="no_manufacturer">No Manufacturer!</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="agent_name">Agent Name</string>
+    <string name="party_name">Party Name</string>
+    <string name="gst_number">GST Number</string>
+    <string name="email">Email</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+</resources>

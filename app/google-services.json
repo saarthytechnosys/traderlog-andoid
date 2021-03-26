@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "807990791294",
+    "firebase_url": "https://bibsindia-a711a.firebaseio.com",
+    "project_id": "bibsindia-a711a",
+    "storage_bucket": "bibsindia-a711a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807990791294:android:7c08286ffbbef1322ddc2f",
+        "android_client_info": {
+          "package_name": "com.saarthytech.bibsindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807990791294-smiroarh1hhgm3titunlkje5qgqj77vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVeCxXKflYEL-Ak4BcHkb0MuVNeL0jC4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807990791294-smiroarh1hhgm3titunlkje5qgqj77vn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "807990791294-bd0thijr2615nvct36h65c4qrkna5hm8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.saarthytech.bibsindia.ios"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807990791294:android:2c79e2865c3631452ddc2f",
+        "android_client_info": {
+          "package_name": "commercial_catalogue.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807990791294-smiroarh1hhgm3titunlkje5qgqj77vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVeCxXKflYEL-Ak4BcHkb0MuVNeL0jC4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807990791294-smiroarh1hhgm3titunlkje5qgqj77vn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "807990791294-bd0thijr2615nvct36h65c4qrkna5hm8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.saarthytech.bibsindia.ios"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807990791294:android:1f421d44b1e162352ddc2f",
+        "android_client_info": {
+          "package_name": "enterprise_catalogue.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807990791294-smiroarh1hhgm3titunlkje5qgqj77vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVeCxXKflYEL-Ak4BcHkb0MuVNeL0jC4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807990791294-smiroarh1hhgm3titunlkje5qgqj77vn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "807990791294-bd0thijr2615nvct36h65c4qrkna5hm8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.saarthytech.bibsindia.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

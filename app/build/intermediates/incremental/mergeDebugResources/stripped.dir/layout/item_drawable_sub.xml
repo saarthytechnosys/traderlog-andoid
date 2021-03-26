@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/rootChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:layout_marginTop="0.5dp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:layout_marginBottom="0.5dp"
+        android:background="@color/colorPrimaryTrans"
+        android:foreground="?selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTraderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_35sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:alpha="0.6"
+            android:ellipsize="marquee"
+            android:fontFamily="@font/poppins_medium"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_12ssp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimary" />
+    </LinearLayout>
+</LinearLayout>

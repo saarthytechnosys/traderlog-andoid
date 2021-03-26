@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navDashboard"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/navCatalogue"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="@string/catalogue" />
+
+        <item
+            android:id="@+id/navCatalogueShare"
+            android:icon="@drawable/ic_baseline_screen_share_24"
+            android:title="@string/catalogue_share" />
+
+        <item
+            android:id="@+id/navOrderHistory"
+            android:icon="@drawable/ic_baseline_shopping_basket_24"
+            android:title="@string/order_history" />
+
+        <item
+            android:id="@+id/navLogout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/logout" />
+    </group>
+
+</menu>
